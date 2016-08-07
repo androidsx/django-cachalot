@@ -30,6 +30,7 @@ VALID_CACHE_BACKENDS = {
     'django.core.cache.backends.locmem.LocMemCache',
     'django.core.cache.backends.filebased.FileBasedCache',
     'django_redis.cache.RedisCache',
+    'redis_cache.cache.RedisCache',
     'django.core.cache.backends.memcached.MemcachedCache',
     'django.core.cache.backends.memcached.PyLibMCCache',
 }
